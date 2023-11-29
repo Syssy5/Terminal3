@@ -1,0 +1,50 @@
+  128  grep "f;french" < Prenoms.csv | wc -l
+  129  grep "m;english" < Prenoms.csv | wc -l
+  130  grep swedish Prenoms.csv > Swedish.csv
+  131  grep danish Prenoms.csv > Danish.csv
+  132* grep 
+  133  cat Swedish.csv Danish.csv Norwegian.csv | sort -u
+  134  curl https://www.data.gouv.fr/s/resources/liste-de-prenoms/20141127-154433/Prenoms.csv -o Prenoms.cs
+  135  head php_france_2019
+  136  grep PHP php_france_2019.csv > php.csv
+  137  grep php_france_2019 wilders.csv > php_france_2019.csv
+  138  grep php,france,2019 wilders.csv > php_france_2019.csv
+  139  grep france,2019,PHP wilders.csv > php_france_2019.csv
+  140  grep France,2019,PHP wilders.csv > php_france_2019.csv
+  141* 
+  142  grep "France,2019,PHP" < wilders.csv | wc -l php_france_2019.csv
+  143  grep "France,2019,PHP" < wilders.csv | wc -l > php_france_2019.csv
+  144  curl [200~
+  145  Sylvanawilder MINGW64 
+  146  curl 
+  147  Sylvana@wilder MINGW64 ~ curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv -o wilders.csv
+  148  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv -o wilders.csv
+  149  cat wilders.csv 
+  150  grep "France,2019,PHP" < wilders.csv | wc -l > php_france_2019.csv
+  151  cat php_france_2019.csv 
+  152  grep "Toulouse,Javascript" wilders.csv > javascript_toulouse
+  153  grep "Toulouse,Javascript" wilders.csv > javascript_toulouse.csv
+  154  grep "Biarritz,Javascript" wilders.csv > javascript_birritz.csv
+  155  cat javascript_biarritz.csv
+  156  cat javascript_birritz.csv
+  157  grep "Biarritz,Javascript" wilders.csv > javascript_biarritz.csv
+  158  cat javascript_biarritz.csv
+  159  grep "JavaScript" wilders.csv > javascript.csv
+  160  cat javascript.csv
+  161  grep "Toulouse" javascript.csv > javascript_toulouse.csv
+  162  cat javascript_toulouse.csv
+  163  grep "Biarritz" javascript.csv > javascript_biarritz.csv
+  164  cat javascript_biarritz.csv 
+  165  cat javascript_toulouse javascript_biarritz.csv > javascript_toulouse_biarritz.csv
+  166  cat javascript_toulouse_biarritz.csv 
+  167  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv -o wilders.csv
+  168  grep "France,2019,PHP" < wilders.csv | wc -l > php_france_2019.csv
+  169  cat php_france_2019.csv 
+  170  grep "JavaScript" wilders.csv > javascript.csv
+  171  cat javascript_toulouse.csv
+  172  grep "Toulouse" javascript.csv > javascript_toulouse.csv
+  173  grep "Biarritz" javascript.csv > javascript_biarritz.csv
+  174  cat javascript_toulouse.csv javascript_biarritz.csv > javascript_toulouse_biarritz.csv
+  175  cat javascript_toulouse_biarritz.csv 
+  176  history tail 50 > history.txt
+  177  history | tail -50 > history.txt
